@@ -19,7 +19,10 @@ public class Client implements Serializable {
     private String phone;
     private String address;
 
-    public Client() {
+    public Client()
+    
+    
+    {
     }
 
     public Client(Long id, String firstName, String lastName, String nit, String phone, String address) {
